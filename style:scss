@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "white": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of style.css
+
+1: .form-container h1{
+2:   color: white;
+3:   background-color: #DA0D2C;
+4: }
+
+Backtrace:
+style.css:2
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in `assert_done'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in `parse'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in `parse'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script.rb:27:in `parse'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:1169:in `parse_script'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:745:in `parse_property'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:707:in `parse_property_or_rule'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:666:in `parse_line'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:548:in `block in build_tree'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `each'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:541:in `build_tree'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Users/polly/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Users/polly/.rbenv/versions/2.6.3/bin/sass:23:in `load'
+/Users/polly/.rbenv/versions/2.6.3/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"white\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of style.css\A \A 1: .form-container h1{\A 2:   color: white;\A 3:   background-color: #DA0D2C;\A 4: }"; }
